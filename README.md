@@ -4,6 +4,9 @@
 
 Velas Subchain is a lightweight gateway node that allows you to launch a dedicated "chainlet" on the Velas network. Each chainlet has its own chain ID and an ERC‑20 token defined directly in the genesis block. You can also allocate additional accounts and balances as you would in a Geth `genesis.json` file. Unlike traditional L1 solutions, Velas Subchain lets you implement smart contract–based consensus without needing to dive into Rust or Go development.
 
+![My Image](https://raw.githubusercontent.com/askucher/velas-subchain/main/diagram.png)
+
+
 ## Features
 
 - **Custom Chain ID**: Define your own chainlet with a unique `CHAINID`.
