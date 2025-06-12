@@ -1,0 +1,14 @@
+{
+  "config": {
+    "chainId": "0x566",
+    "startHardfork": "Istanbul",
+    "networkName": "My test",
+    "tokenName": "VLT"
+  },
+  "alloc": {
+    "0x1a642f0e3c3af545e7acbd38b07251b3990914f1": {
+      "balance": "12210000000000000000"
+    }
+  },
+  "auxiliary": {}
+}
