@@ -129,6 +129,8 @@ contract GenesisToken is ERC20, Ownable {
    # Deploy the gateway node and launch your chainlet
    bash exec.sh deploy
 
+   # please notice. you need to deposit 1m VLX to spin up the chain. 
+
    # it should deploy all contracts and launch chainlet inside velas
    # it also starts the pm2 process of gateway node: 127.0.0.1:8545 . it should be covered with cloudflare https://yourdomain.com/rpc
 
